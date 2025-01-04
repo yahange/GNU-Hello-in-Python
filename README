@@ -1,0 +1,84 @@
+ GNU Hello 2.10 in Python
+
+This is a Python implementation of the GNU Hello program (version 2.10). The program prints a friendly, customizable greeting to the terminal, offering options for traditional messages or custom greetings.
+
+## Features
+
+- **Traditional Greeting**: Prints "hello, world".
+- **Customizable Greeting**: Allows the user to specify a custom greeting message using the `-g` or `--greeting` option.
+- **Version Info**: Displays version information using the `-v` or `--version` option.
+
+## Requirements
+
+- Python 3.6 or newer
+
+## Usage
+
+Run the script with Python:
+
+```bash
+python hello.py [OPTIONS]
+```
+
+### Options
+
+- `-v`, `--version`: Display version information.
+- `-t`, `--traditional`: Use the traditional greeting "hello, world".
+- `-g TEXT`, `--greeting TEXT`: Use `TEXT` as the greeting message.
+
+### Examples
+
+1. Print the traditional greeting:
+
+    ```bash
+    python hello.py --traditional
+    ```
+
+    Output:
+    ```
+    hello, world
+    ```
+
+2. Print a custom greeting:
+
+    ```bash
+    python hello.py --greeting "Hello, Pythonista!"
+    ```
+
+    Output:
+    ```
+    Hello, Pythonista!
+    ```
+
+3. Display version information:
+
+    ```bash
+    python hello.py --version
+    ```
+
+    Output:
+    ```
+    GNU Hello 2.10 in Python
+    ```
+
+## License
+
+This program is licensed under the terms of the GNU General Public License version 3 (GPLv3). You may redistribute and/or modify it under the terms of the license. A copy of the license is included below.
+
+### GNU General Public License Version 3, 29 June 2007
+
+```plaintext
+Copyright (C) 2025 yahange
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
