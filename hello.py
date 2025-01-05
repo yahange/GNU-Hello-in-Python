@@ -33,6 +33,7 @@ import sys
 GNU_HELLO_VERSION = "2.10"
 PROJECT_VERSION = "1.0.0"
 
+
 class RequireValue(argparse.Action):
     def __call__(self, parser, namespace, values, option_string=None):
         if not values:
@@ -54,7 +55,10 @@ def main():
     )
 
     parser.add_argument(
-        "-v", "--version", action="version", version=f"GNU Hello {GNU_HELLO_VERSION} in Python version {PROJECT_VERSION}"
+        "-v",
+        "--version",
+        action="version",
+        version=f"GNU Hello {GNU_HELLO_VERSION} in Python version {PROJECT_VERSION}",
     )
 
     parser.add_argument(
