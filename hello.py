@@ -4,11 +4,11 @@
 # Copyright (C) 2025 yahange
 #
 # Description:
-# This is a Python implementation oof the GNU Hello program, designed to provide
+# This is a Python implementation of the GNU Hello program, designed to provide
 # a friendly, customizable greeting from the command line. It supports multiple
 # options including displaying the version, using a traditional greeting, and
 # customizing the greeting message. This project follows the GNU General Public
-# License and serves as a learning tool for Python command-line programming.
+# License and serves as a learning tool for Python commmand-line programming.
 #
 # Copyright and License Details:
 # This program is free software: you can redistribute it and/or modify
