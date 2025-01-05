@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# GNU Hello in Python
+# GNU Hello 2.10 in Python version 1.0.0
 # Copyright (C) 2025 yahange
 #
 # Description:
@@ -43,7 +43,7 @@ class RequireValue(argparse.Action):
 
 def display_copyright():
     """Display copyright information in the terminal."""
-    print("GNU Hello in Python  Copyright (C) 2025 yahange")
+    print(f"GNU Hello {GNU_HELLO_VERSION} in Python version {PROJECT_VERSION}   Copyright (C) 2025 yahange")
 
 
 def main():
