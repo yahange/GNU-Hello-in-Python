@@ -1,4 +1,4 @@
- GNU Hello 2.10 in Python
+ GNU Hello 2.10 in Python 1.0.0
 
 This is a Python implementation of the GNU Hello program (version 2.10). The program prints a friendly, customizable greeting to the terminal, offering options for traditional messages or custom greetings.
 
@@ -58,7 +58,7 @@ python hello.py [OPTIONS]
 
     Output:
     ```
-    GNU Hello 2.10 in Python
+    GNU Hello 2.10 in Python version 1.0.0
     ```
 
 ## License
