@@ -3,6 +3,14 @@
 # GNU Hello in Python
 # Copyright (C) 2025 yahange
 #
+# Description:
+# This is a Python implementation oof the GNU Hello program, designed to provide
+# a friendly, customizable greeting from the command line. It supports multiple
+# options including displaying the version, using a traditional greeting, and
+# customizing the greeting message. This project follows the GNU General Public
+# License and serves as a learning tool for Python command-line programming.
+#
+# Copyright and License Details:
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -17,6 +25,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 # For more information, contact: yahange@126.com
+
 
 import argparse
 import sys
