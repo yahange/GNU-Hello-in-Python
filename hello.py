@@ -58,7 +58,7 @@ def main():
         "-v",
         "--version",
         action="version",
-        version=f"GNU Hello {GNU_HELLO_VERSION} in Python version {PROJECT_VERSION}",
+        version="",
     )
 
     parser.add_argument(

@@ -2,11 +2,16 @@
 
 All notable changes to this project are documented in this file.
 
+## [2025-01-08] -- 1.0.1
+### Improved
+- Optimized help messages and version information in the project.
+- Enhanced clarity of command-line argument descriptions and error handling.
+
 ## [2025-01-05] -- 1.0.0
 ### Added
 - Added GitHub Actions workflow for CI automation.
-- Created and documented the `CHANGELOG` file.
-- Improved project documentation in the `README.md`.
+- Created and documented the CHANGELOG file.
+- Improved project documentation in the README.md.
 
 ## [2025-01-04]
 ### Added
