@@ -7,6 +7,7 @@ This is a Python implementation of the GNU Hello program (version 2.10). The pro
 - **Traditional Greeting**: Prints "hello, world".
 - **Customizable Greeting**: Allows the user to specify a custom greeting message using the `-g` or `--greeting` option.
 - **Version Info**: Displays version information using the `-v` or `--version` option.
+- **Help message**: Displays help message using the `-h` or `--help` option.
 
 ## Requirements
 
@@ -25,6 +26,7 @@ python hello.py [OPTIONS]
 - `-v`, `--version`: Display version information.
 - `-t`, `--traditional`: Use the traditional greeting "hello, world".
 - `-g TEXT`, `--greeting TEXT`: Use `TEXT` as the greeting message.
+- `-h`, `--help`: Show help information for the program.
 
 ### Examples
 
@@ -58,7 +60,30 @@ python hello.py [OPTIONS]
 
     Output:
     ```
-    GNU Hello 2.10 in Python version 1.0.0
+    GNU Hello 2.10 in Python version 1.0.0   Copyright (C) 2025 yahange
+
+    ```
+
+4. Display help message:
+
+    ```bash
+    python hello.py --help
+    ```
+
+    Output:
+    ```
+    (venv) PS C:\Users\yahan\PycharmProjects\pythonProject\learn_argparse\projects\GNU Hello in Python> python hello.py --help
+GNU Hello 2.10 in Python version 1.0.0   Copyright (C) 2025 yahange
+usage: hello.py [-h] [-v] [-t] [-g TEXT]
+
+Print a friendly, customizable greeting.
+
+options:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
+  -t, --traditional     use traditional greeting
+  -g TEXT, --greeting TEXT
+                        use TEXT as the greeting message
     ```
 
 ## License
