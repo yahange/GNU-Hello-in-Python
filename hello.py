@@ -47,9 +47,6 @@ def display_copyright():
 
 
 def main():
-    if sys.stdin.isatty():
-        display_copyright()
-
     parser = argparse.ArgumentParser(
         description="Print a friendly, customizable greeting."
     )
@@ -58,7 +55,7 @@ def main():
         "-v",
         "--version",
         action="version",
-        version="",
+        version=f"GNU Hello {GNU_HELLO_VERSION} in Python version {PROJECT_VERSION}",
     )
 
     parser.add_argument(
@@ -74,6 +71,9 @@ def main():
     )
 
     args = parser.parse_args()
+
+    if sys.argv[1:] in [['-h'], ['--help'], ['-v'], ['--version']]:
+        display_copyright()
 
     if args.traditional:
         print("hello, world")
