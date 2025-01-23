@@ -4,7 +4,9 @@ All notable changes to this project are documented in this file.
 
 ## [2025-01-23] -- 1.1.0
 ### Added
-- Add build.py file to build the project.
+- Added a build.py file to build the project.
+### Improved
+- Improved the output.
 
 ## [2025-01-21]
 ### Improved
