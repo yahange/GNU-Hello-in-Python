@@ -1,1 +1,1 @@
-# Currently, there are no third-party library dependencies.
+PyInstaller>=3.0.0

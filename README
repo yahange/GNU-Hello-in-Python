@@ -1,4 +1,4 @@
- GNU Hello 2.10 in Python 1.0.0
+ GNU Hello 2.10 in Python 1.1.0
 
 This is a Python implementation of the GNU Hello program (version 2.10). The program prints a friendly, customizable greeting to the terminal, offering options for traditional messages or custom greetings.
 
@@ -60,7 +60,7 @@ python hello.py [OPTIONS]
 
     Output:
     ```
-    GNU Hello 2.10 in Python version 1.0.0   Copyright (C) 2025 yahange
+    GNU Hello 2.10 in Python version 1.1.0   Copyright (C) 2025 yahange
 
     ```
 
@@ -73,7 +73,7 @@ python hello.py [OPTIONS]
     Output:
     ```
     (venv) PS C:\Users\yahan\PycharmProjects\pythonProject\learn_argparse\projects\GNU Hello in Python> python hello.py --help
-GNU Hello 2.10 in Python version 1.0.0   Copyright (C) 2025 yahange
+GNU Hello 2.10 in Python version 1.1.0   Copyright (C) 2025 yahange
 usage: hello.py [-h] [-v] [-t] [-g TEXT]
 
 Print a friendly, customizable greeting.
@@ -86,24 +86,31 @@ options:
                         use TEXT as the greeting message
     ```
 
-## License
+## Build
 
-This program is licensed under the terms of the GNU General Public License version 3 (GPLv3). You may redistribute and/or modify it under the terms of the license. A copy of the license is included below.
+To build the project into a standalone executable, use the provided `build.py` script.
 
-### GNU General Public License Version 3, 29 June 2007
+### Build Instructions
 
-```plaintext
-Copyright (C) 2025 yahange
+1. **Ensure you have PyInstaller installed**:
+   ```bash
+   pip install pyinstaller
+   ```
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+2. **Run the `build.py` script**:
+   This script will use PyInstaller to generate a single executable file.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+   ```bash
+   python build.py
+   ```
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+   After running the script, the executable will be located in the `dist/` directory.
+
+### About `build.py`
+
+The `build.py` script is designed to simplify the process of packaging this project into an executable. It uses **PyInstaller** to bundle the Python script (`hello.py`) into a standalone executable, which can be run without requiring a Python environment.
+
+- **Options**:
+  - `--onefile`: Creates a single executable file.
+  - `--name=hello`: Specifies the name of the output executable.
+```

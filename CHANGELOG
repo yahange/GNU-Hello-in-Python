@@ -2,9 +2,13 @@
 
 All notable changes to this project are documented in this file.
 
+## [2025-01-23] -- 1.1.0
+### Added
+- Add build.py file to build the project.
+
 ## [2025-01-21]
 ### Improved
-- Improved the content of the README file
+- Improved the content of the README file.
 
 ## [2025-01-08] -- 1.0.1
 ### Improved
