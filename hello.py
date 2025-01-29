@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# GNU Hello 2.10 in Python version 1.1.0
+# GNU Hello 2.10 in Python version 1.1.1
 # Copyright (C) 2025 yahange
 #
 # Description:
@@ -28,10 +28,9 @@
 
 
 import argparse
-import sys
 
 GNU_HELLO_VERSION = "2.10"
-PROJECT_VERSION = "1.1.0"
+PROJECT_VERSION = "1.1.1"
 
 
 class RequireValue(argparse.Action):
@@ -43,7 +42,9 @@ class RequireValue(argparse.Action):
 
 def display_copyright():
     """Display copyright information in the terminal."""
-    print(f"GNU Hello {GNU_HELLO_VERSION} in Python version {PROJECT_VERSION}   Copyright (C) 2025 yahange")
+    print(
+        f"GNU Hello {GNU_HELLO_VERSION} in Python version {PROJECT_VERSION}   Copyright (C) 2025 yahange"
+    )
 
 
 def main():
@@ -71,9 +72,6 @@ def main():
     )
 
     args = parser.parse_args()
-
-    if sys.argv[1:] in [['-h'], ['--help'], ['-v'], ['--version']]:
-        display_copyright()
 
     if args.traditional:
         print("hello, world")
