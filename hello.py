@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# GNU Hello 2.10 in Python version 1.1.1
+# GNU Hello 2.10 in Python version 1.1.2
 # Copyright (C) 2025 yahange
 #
 # Description:
@@ -30,7 +30,7 @@
 import argparse
 
 GNU_HELLO_VERSION = "2.10"
-PROJECT_VERSION = "1.1.1"
+PROJECT_VERSION = "1.1.2"
 
 
 class RequireValue(argparse.Action):

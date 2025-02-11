@@ -1,4 +1,4 @@
- GNU Hello 2.10 in Python 1.1.1
+ GNU Hello 2.10 in Python 1.1.2
 
 This is a Python implementation of the GNU Hello program (version 2.10). The program prints a friendly, customizable greeting to the terminal, offering options for traditional messages or custom greetings.
 
@@ -60,7 +60,7 @@ python hello.py [OPTIONS]
 
     Output:
     ```
-    GNU Hello 2.10 in Python version 1.1.1
+    GNU Hello 2.10 in Python version 1.1.2
 
     ```
 
@@ -72,17 +72,16 @@ python hello.py [OPTIONS]
 
     Output:
     ```
-    (venv) PS C:\Users\yahan\PycharmProjects\pythonProject\learn_argparse\projects\GNU Hello in Python> python hello.py --help
-usage: hello.py [-h] [-v] [-t] [-g TEXT]
+    usage: hello.py [-h] [-v] [-t] [-g TEXT]
 
-Print a friendly, customizable greeting.
+    Print a friendly, customizable greeting.
 
-options:
-  -h, --help            show this help message and exit
-  -v, --version         show program's version number and exit
-  -t, --traditional     use traditional greeting
-  -g TEXT, --greeting TEXT
-                        use TEXT as the greeting message
+    options:
+      -h, --help            show this help message and exit
+      -v, --version         show program's version number and exit
+      -t, --traditional     use traditional greeting
+      -g TEXT, --greeting TEXT
+                            use TEXT as the greeting message
     ```
 
 ## Build
